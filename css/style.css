@@ -1,11 +1,17 @@
 *{
     margin:0;
     padding:0;
+    font-family: Segoe UI;
+    font-style: normal;
 }
 .p1_1{
 height:100vh;
 background: #FFF3F1;
 }
+.p2_1{
+    height:100vh;
+
+    }
 .p1_1_circleright{
 position: absolute;
 width: 414px;
@@ -15,6 +21,15 @@ top: 116px;
 
 background-image: url("Ellipse\ 1-1.png");
 }
+.p1_2_circleright{
+    position: absolute;
+    width: 414px;
+    height: 406px;
+    left: -274px;
+    top: 116px;
+    
+    background-image: url("Ellipse\ 1-1.png");
+    }
 .p1_1_circletop{
 position: absolute;
 width: 406px;
@@ -30,11 +45,11 @@ z-index: 0;
 width: 546.4px;
 height: 426.53px;
 left: 821px;
- top: 325px;
+ top: 280px;
     background-image: url("Group\ 86.png");
 }
 .p1_2{
-    height:100vh;
+    height:110vh;
     background-color: white;
 
 }
@@ -44,8 +59,8 @@ left: 821px;
     padding-left:2vh;
     padding-right:10vh;
     display:flex;
-    font-family: Nunito;
-font-style: normal;
+    
+
 font-weight: normal;
 font-size: 24px;
 line-height: 33px;
@@ -55,9 +70,9 @@ a{
     
     text-decoration:none;
     color:black;
-    font-family: Nunito;
-    font-style: normal;
-    font-style: normal;
+    
+    
+    
     display:flex;
 font-weight: normal;
 font-size: 24px;
@@ -74,8 +89,8 @@ height: 195px;
 left: 174px;
 top: 219px;
 
-font-family: Nunito;
-font-style: normal;
+
+
 font-weight: normal;
 font-size: 48px;
 line-height: 65px;
@@ -90,20 +105,20 @@ height: 33px;
 left: 174px;
 top: 463px;
 
-font-family: Nunito;
-font-style: normal;
+
+
 font-weight: normal;
 font-size: 24px;
 line-height: 33px;
 /* identical to box height */
 }
 .p1_2_main_title{
-    font-family: Nunito;
-font-style: normal;
+    
+
 font-weight: 600;
 font-size: 36px;
 line-height: 49px;
-padding-left:5vh;
+padding-left:25vh;
 padding-top:5vh;
 
 color: #000000;
@@ -111,7 +126,7 @@ color: #000000;
 .p1_2_fbox{
 position: absolute;
 width: 534px;
-height: 614px;
+height: 580px;
 left: 176px;
 top: 850px;
 padding-left: 5vh;
@@ -123,7 +138,7 @@ border-radius: 22px;
 .p1_2_sbox{
     position: absolute;
 width: 536px;
-height: 614px;
+height: 580px;
 left: 788px;
 top: 850px;
 padding-left: 5vh;
@@ -134,8 +149,8 @@ border-radius: 22px;
 }
 
 .p1_2_content{
-font-family: Nunito;
-font-style: normal;
+
+
 font-weight: normal;
 font-size: 24px;
 line-height: 33px;
@@ -156,8 +171,8 @@ padding-bottom: 5vh;
 }
 .p1_3_title{
     padding-bottom:5vh;
-    font-family: Nunito;
-font-style: normal;
+    
+
 font-weight: 600;
 font-size: 36px;
 line-height: 49px;
@@ -166,9 +181,9 @@ color: #000000;
 }
 .p1_3_subtitle{
 
-    font-family: Nunito;
+    
     padding-left:5vh;
-font-style: normal;
+
 font-weight: normal;
 font-size: 36px;
 line-height: 49px;
@@ -176,7 +191,7 @@ padding-bottom: 5vh;
 }
 .p1_3_content{
     padding-top:3vh;
-    font-family: Nunito;
+    
     font-style: italic;
 font-weight: normal;
 padding-left:5vh;
@@ -196,8 +211,8 @@ color: #000000;
     padding-bottom:5vh ;
     padding-top:10vh ;
     /*Font */
-    font-family: Nunito;
-    font-style: normal;
+    
+    
 font-weight: normal;
 font-size: 16px;
 line-height: 22px;
@@ -209,5 +224,106 @@ color: #FFFFFF;
  flex:1;
  margin-right: 6vh;
 }
+.fblogo
+{
+    flex:1;
+    margin-right: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    height:40px;
+    width:36px;
+}
+.instalogo
+{
+    flex:1;
+    height:36px;
+    width:36px;
+ 
+}
+
+.box{
+    display:flex;
+   
+    padding-left: 20vh;
+    padding-top: 19vh; 
+    padding-right:15vh;
+}
+
+.p2_box{
+    flex:1;
+    height: 74vh;
+    width: 25%;
+    background-color: #FFF3F1;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    border-radius: 24px;
+   
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 19px;
+
+color: #000000;
+}
+.imgcss{
+    width:100%;
+    height:50%;
+}
+.page1{
+    height:100vh;
+
+}
+.page1m{
+    height:50vh;
+    background-color:#fff3f1;
+    padding-left:15vh ;
+    padding-top:5vh ;
+}
+.page1_m_orders{
+    display: flex;
+    margin-bottom: 5px;
 
 
+}
+
+.Add_button{
+    margin-left: 45vh;
+    margin-top:12vh;
+    background-color:#ff0000;
+    cursor: pointer;
+ 
+}
+.Add_button :hover{
+    transition-delay: 1s;
+    background-color: rosybrown;
+}
+.pay_button{
+    margin-left: 155vh;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    background-color: #FF8383;
+    cursor:pointer;
+}
+pay_buttonhover{
+    color:grey;
+
+}
+.hrred{
+    border-top: 1px solid red;
+   margin-right:25vh;
+}
+.hrredp1recipe{
+    margin-right:130vh;
+    margin-left:28vh;
+    border-top: 1px solid red;
+
+}
+.hrredp2recipe{
+    
+    border-top: 1px solid red;
+    margin-right:130vh;
+    margin-left:0vh;
+}
